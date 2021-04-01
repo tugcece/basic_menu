@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+body{
+  background-color:#f5f5dc; 
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+.menu{
+  background-color:#FFB6C1;
+  width:23.3em;
+  height:3.9em;
+  margin:10em 25em;
+  position:relative  ;
+  border-radius:1.5em;
+}
+
+.menu #ficon{
+  background-color:#FFB6C1;
+  width:3.9em;
+  height:3.9em;
+  border-radius:3.9em;
+  position:absolute;
+  margin:0em -0.5em;  
+}
+
+#ficon:hover{
+  transition: all .8s ease-in-out;
+  background-color:#ff0f39;
+}
+.icon1{
+ color:#ff0f39;
+  position:absolute;
+  font-size:2em;
+  margin:.5em .5em;
+  display:block;
+  width:3.9em;
+  height:3.9em;
+}
+.icon1:hover{
+  color:#FFB6C1;
+  
+
+}
+.menu #sicon{
+  background-color:#FFB6C1;
+  width:3.9em;
+  height:3.9em;
+  margin:0em 6em;
+  position:absolute;
+  border-radius:3.9em;
+  justify-content:row;
+  }
+#sicon:hover{
+  width:5.9em;
+  height:5.9em;
+  border-radius:5.9em;
+  transition: all .7s ease-in-out;
+  background-color:#ff0f39;
+ }
+
+.menu #ticon{
+  background-color:#FFB6C1;
+  width:3.9em;
+  height:3.9em;
+  margin:0em 12em;
+  position:absolute;
+  border-radius:3.9em;
+  justify-content:row;
+ 
+  }
+#ticon:hover{
+  width:5.9em;
+  height:5.9em;
+  border-radius:5.9em;
+  transition: all .7s ease-in-out;
+  background-color:#ff0f39;
+ }
+#licon{
+  background-color:#FFB6C1;
+  width:3.9em;
+  height:3.9em;
+  margin:0em 18em;
+  position:absolute;
+  border-radius:3.9em;
+  justify-content:row;
+ 
+  }
+#licon:hover{
+  width:5.9em;
+  height:5.9em;
+  border-radius:5.9em;
+  transition: all .7s ease-in-out;
+  background-color:#ff0f39;
+ }
+.grow { 
+  display:block;
+  color:#ff0f39;
+   width:3.9em;
+  height:3.9em;  
+  margin:1em 0.4em;
+  font-size:1.22em;
+  word-spacing:-0.1em;
+  z-index: 3;
+  transition: all .7s ease-in-out; }
+
+.grow:hover { 
+  color:#FFB6C1;
+   margin:1.9em 0.85em;
+  transform: scale(1.1); }
